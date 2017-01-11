@@ -1,0 +1,38 @@
+{
+  "name" : "riccimatic/composer-tar-package-skeleton",
+  "description" : "Composer tar package skeleton",
+  "version" : "0.1.0",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "5.2.*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "riccimatic", "composer", "tar", "package", "skeleton" ],
+  "autoload-dev" : {
+    "psr-4" : {
+      "RiccimaticTest\\TarPackageSkeletonTest\\" : "src/RiccimaticTest/TarPackageSkeletonTest/"
+    }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.1.0-dev",
+      "dev-develop" : "continuous-integration"
+    }
+  },
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Riccimatic\\TarPackageSkeleton\\" : "src/Riccimatic/TarPackageSkeleton/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "https://www.riccimatic.com",
+  "prefer-stable" : true,
+  "authors" : [ {
+    "name" : "stefano ricci",
+    "email" : "stefano.ricci@riccimatic.com",
+    "homepage" : "https://www.riccimatic.com"
+  } ]
+}
