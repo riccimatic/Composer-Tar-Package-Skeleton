@@ -1,7 +1,7 @@
 {
   "name" : "riccimatic/composer-tar-package-skeleton",
   "description" : "Composer tar package skeleton",
-  "version" : "0.1.6",
+  "version" : "0.1.7",
   "require" : {
     "php" : ">=7.0.0"
   },
