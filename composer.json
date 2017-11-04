@@ -18,7 +18,7 @@
   "extra" : {
     "branch-alias" : {
       "dev-master" : "0.1.0-dev",
-      "dev-develop" : "continuous-integration"
+      "dev-develop" : "continuous-integration-dev"
     }
   },
   "minimum-stability" : "dev",
