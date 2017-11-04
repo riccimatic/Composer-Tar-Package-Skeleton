@@ -6,7 +6,7 @@
 
 *CI*
 
-This is the CI maintenance release for the Reventoo 2 Core series.
+This is the CI maintenance release for the XXX series.
 
 DD MMM YYYY
 
