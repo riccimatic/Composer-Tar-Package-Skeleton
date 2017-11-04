@@ -1,7 +1,7 @@
 {
   "name" : "riccimatic/composer-tar-package-skeleton",
   "description" : "Composer tar package skeleton",
-  "version" : "0.1.5",
+  "version" : "0.1.8",
   "require" : {
     "php" : ">=7.0.0"
   },
@@ -18,7 +18,7 @@
   "extra" : {
     "branch-alias" : {
       "dev-master" : "0.1.0-dev",
-      "dev-develop" : "continuous-integration"
+      "dev-develop" : "0.2.0-dev"
     }
   },
   "minimum-stability" : "dev",
